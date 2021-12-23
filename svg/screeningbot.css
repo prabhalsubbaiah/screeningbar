@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+    background-color: rgb(10, 13, 28);
+  }
+body {
+      margin: auto;
+}
+.page1 img {
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    float: right;
+    margin: 30px 20px;
+}
+.page1 iframe {
+    margin-top: 80px;
+    margin-left: 120px;
+}
+h1 {
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    margin-left: 550px;
+    display: flex;
+    align-items: center;
+}

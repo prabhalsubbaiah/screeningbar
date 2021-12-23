@@ -1,0 +1,42 @@
+body{ 
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(10, 13, 28);
+    margin: auto;
+  }
+  .page1 {
+    height: 450px;
+    width: 800px;
+    border: 2px solid white;
+    border-radius: 1px;
+    justify-content: center;
+    margin: 100px 210px;
+    background-color: white;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  img {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
+  #single {
+    float:left;
+    margin: 40px 110px;
+  }
+  #single1 {
+    float: right;
+    margin: 40px 110px;
+  }
+  h4 {
+    text-align: left;
+  }
+  .others h4 {
+    float: right;
+  }
+  

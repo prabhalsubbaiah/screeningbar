@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TERMS AND SERVICE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="images\medical.png" type="image/x-icon">
+        <link rel="stylesheet" href="agree.css" type="text/css">
+    </head>
+    <body>
+        <div class="page1">
+            <img src="images\document.png" alt="term" id="term">
+            <h2>Terms of Service</h2><br>   
+            <p>Before using the<b>Screeningbar,</b>please read Terms of Service. Remember that:</p><br>
+            <h4><b>*</b>Screeningbar is not a diagnosis. Checkup is for informational purposes and is not a qualified medical opinion.</h4>
+            <h4><b>*</b>Do not use in emergencies. In case of health emergency, call your local emergency number immediately.</h4> 
+            <h4><b>*</b>Your data is safe. Information that you provide is anonymous and not shared with anyone.</h4>
+            <a href="introduction.html" id="button">NEXT</a>
+            <div class="container">
+                <label for="myCheck">I read and accept Terms of Service and Privacy Policy.</label> 
+                <input type="checkbox" id="myCheck" onclick="myFunction()"><br>
+                <label for="myCheck1">I agree to the processing of my health information for the purpose of performing the interview.</label> 
+                <input type="checkbox" id="myCheck1" onclick="myFunction()">
+            </div>
+            
+        </div>   
+        
+        <script>
+            function myFunction() {
+              var checkBox = document.getElementById("myCheck");
+              var checkBox1 = document.getElementById("myCheck1");
+              if (checkBox.checked == true && checkBox1.checked == true)
+                text.style.display = "block";
+                alert('continue with your diagnosis')
+              } 
+              else{
+                 text.style.display = "none";
+                 alert('please agree for both the terms and conditions')
+              }
+            }
+        </script>
+    </body>
+</html>

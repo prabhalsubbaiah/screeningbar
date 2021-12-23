@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding:0px;
+  background-color: rgb(10, 13, 28);
+}
+li, a, button {
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 500;
+  font-size: 20px;
+  color: white; 
+  float: right;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+#title {
+  font-family: 'Shadows Into Light', cursive;
+  color: white;
+}
+.logo{
+  cursor: pointer;
+}
+.nav_links {
+  list-style: none;
+  
+}
+.nav_links li{
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav_links li a{
+  list-style: none;
+  transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+  color: green;
+}
+
+/*middle content from here*/
+.page1 {
+  height: 400px;
+  width: 800px;
+  border: 2px solid white;
+  border-radius: 1px;
+  justify-content: center;
+  margin: 0px 210px;
+  background-color: white;
+}
+.page1 h3, p{
+  background-color: white;
+  font-family: 'Permanent Marker', cursive;
+}
+#doc {
+  background-color: white;
+  height: 250px;
+  width: 250px;
+  float: right;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:black;
+  text-align: center;
+}
+/*this is for a button*/
+#button {
+  float:left;
+  margin:80px 170px;
+  color: white;
+  box-shadow: 4px 4px black;
+  border: 2px solid green;
+}
+#button:hover {
+  transform: scale(1.1);
+}
